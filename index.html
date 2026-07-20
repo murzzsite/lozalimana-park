@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Лозалимана — событийная площадка в винограднике</title>
+<meta name="description" content="Аренда территории винодельни для свадеб, юбилеев, корпоративов, йоги и арт-вечеров. Виноградный парк 500 м², беседка-кафе на 60 персон, размещение в номерах.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner container">
+    <a href="#top" class="logo"><span class="logo__main">Лозалимана</span><span class="logo__suffix">event park</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">О площадке</a>
+      <a href="#territory">Территория</a>
+      <a href="#services">Услуги</a>
+      <a href="#rooms">Размещение</a>
+      <a href="#prices">Цены</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header__actions">
+      <a href="tel:+79990000000" class="header__phone">+7 (999) 000-00-00</a>
+      <a href="#leadForm" class="btn btn--primary btn--sm">Забронировать</a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <span class="eyebrow">Виноградник под открытым небом</span>
+        <h1>Территория винодельни для вашего события</h1>
+        <p class="hero__lead">Свадьбы, юбилеи, корпоративы, стратегические сессии, йога-ретриты и девичники — среди виноградных рядов, в беседке-кафе на 60 человек или с размещением в номерах у дома.</p>
+        <div class="hero__cta">
+          <a href="#leadForm" class="btn btn--primary">Забронировать дату</a>
+          <a href="#territory" class="btn btn--ghost">Смотреть площадку</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat"><span class="stat__num" data-target="500">0</span><span class="stat__label">м² виноградного парка</span></div>
+          <div class="stat"><span class="stat__num" data-target="60">0</span><span class="stat__label">мест в беседке-кафе</span></div>
+          <div class="stat"><span class="stat__num" data-target="3">0</span><span class="stat__label">номера для гостей</span></div>
+        </div>
+      </div>
+      <div class="hero__card">
+        <div class="hero__card-row"><span>Аренда территории</span><b>от 30 000 ₽</b></div>
+        <div class="hero__card-row"><span>Аренда беседки-кафе</span><b>от 10 000 ₽</b></div>
+        <div class="hero__card-row"><span>Номер (до 4 чел.)</span><b>от 2 000 ₽</b></div>
+        <div class="hero__card-row"><span>Мангальщик</span><b>от 3 000 ₽</b></div>
+        <a href="#leadForm" class="btn btn--primary btn--block">Узнать свободные даты</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПРЕИМУЩЕСТВА -->
+  <section class="section adv-section">
+    <div class="container">
+      <h2 class="section__title">Почему выбирают Лозалиману</h2>
+      <div class="adv-grid">
+        <div class="adv">
+          <div class="adv__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C9 2 7 5 7 8c0 3 2 5 5 6 3-1 5-3 5-6 0-3-2-6-5-6Z" stroke="currentColor" stroke-width="1.6"/><path d="M12 14v8M9 22h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>Виноградник 500 м²</h3>
+          <p>Живописные ряды винограда как естественная декорация — для фотосессий, церемоний и прогулок гостей.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 21V9l8-5 8 5v12" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 21v-6h6v6" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <h3>Беседка-кафе на 60 персон</h3>
+          <p>56 м² крытого пространства для банкета, лекции или мастер-класса в любую погоду.</p>
+        </div>
+        <div class="adv__icon-wrap adv">
+          <div class="adv__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 20h18M6 20V10l6-6 6 6v10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3>Сцена для церемоний</h3>
+          <p>52,5 м² — место для ведущего, музыкантов или выездной регистрации молодожёнов.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="10" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M9 10V7a3 3 0 0 1 6 0v3" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <h3>Ночёвка на территории</h3>
+          <p>3 номера в доме, до 4 человек в каждом — гостям не нужно уезжать после праздника.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 3v18M5 8h14M5 16h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>Мангал под ключ</h3>
+          <p>Свой мангальщик приготовит еду на любой объём гостей — без хлопот с готовкой.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>С 9:00 до 23:00</h3>
+          <p>Полный световой день на подготовку, событие и сборы — без спешки и почасовой доплаты.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- УСЛУГИ -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <h2 class="section__title">Форматы мероприятий</h2>
+      <p class="section__sub">Площадка подходит под любой сценарий — от свадьбы на 60 человек до тихой йога-сессии на двоих</p>
+      <div class="services-grid">
+        <div class="service"><h3>Свадьбы и юбилеи</h3><p>Виноградник для церемонии, беседка для банкета, номера для молодожёнов и близких.</p><span class="service__price">от 30 000 ₽</span></div>
+        <div class="service"><h3>Корпоративы и стратсессии</h3><p>Формат вне офиса: беседка под конференц-зал, территория для активностей на воздухе.</p><span class="service__price">от 30 000 ₽</span></div>
+        <div class="service"><h3>Дни рождения и вечеринки</h3><p>Своя территория на весь день, без соседей и лишних глаз — с мангалом и музыкой.</p><span class="service__price">от 30 000 ₽</span></div>
+        <div class="service"><h3>Йога и ретриты</h3><p>Тишина виноградника и свежий воздух — идеальный фон для практики и медитаций.</p><span class="service__price">от 30 000 ₽</span></div>
+        <div class="service"><h3>Девичники и арт-вечера</h3><p>Уютная беседка-кафе, красивые локации для фото, атмосфера винодельни.</p><span class="service__price">от 10 000 ₽</span></div>
+        <div class="service"><h3>Размещение с ночёвкой</h3><p>3 номера на 4 человека каждый — для гостей, которые хотят остаться до утра.</p><span class="service__price">от 2 000 ₽</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- РАЗМЕЩЕНИЕ (номера) -->
+  <section class="section rooms-section" id="rooms">
+    <div class="container">
+      <h2 class="section__title">Номера в доме</h2>
+      <p class="section__sub">Санузел раздельный, расположен на этаже с номерами. Заезд с 10:00, выезд до 12:00 следующего дня</p>
+      <div class="rooms-grid">
+        <div class="room">
+          <span class="room__badge">до 4 человек</span>
+          <h3>Номер стандарт</h3>
+          <p>Компактный номер для гостей, которые хотят остаться после мероприятия.</p>
+          <span class="room__price">от 2 000 ₽</span>
+        </div>
+        <div class="room">
+          <span class="room__badge">до 4 человек</span>
+          <h3>Номер увеличенный</h3>
+          <p>Больше свободного пространства, подходит для семей с детьми.</p>
+          <span class="room__price">2 500 ₽</span>
+        </div>
+        <div class="room room--accent">
+          <span class="room__badge">до 4 человек</span>
+          <h3>Номер большой</h3>
+          <p>Самый просторный номер по площади — для молодожёнов или гостей особого случая.</p>
+          <span class="room__price">3 000 ₽</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПРАЙС -->
+  <section class="section price-section" id="prices">
+    <div class="container">
+      <h2 class="section__title">Цены</h2>
+      <div class="price-table">
+        <div class="price-row price-row--head"><span>Услуга</span><span>Время</span><span>Стоимость</span></div>
+        <div class="price-row"><span>Аренда территории</span><span>9:00–23:00</span><span>от 30 000 до 60 000 ₽</span></div>
+        <div class="price-row"><span>Аренда беседки-кафе</span><span>9:00–23:00</span><span>от 10 000 ₽</span></div>
+        <div class="price-row"><span>Номер стандарт (до 4 чел.)</span><span>10:00–12:00 след. дня</span><span>от 2 000 ₽</span></div>
+        <div class="price-row"><span>Номер увеличенный (до 4 чел.)</span><span>10:00–12:00 след. дня</span><span>2 500 ₽</span></div>
+        <div class="price-row"><span>Номер большой (до 4 чел.)</span><span>10:00–12:00 след. дня</span><span>3 000 ₽</span></div>
+        <div class="price-row"><span>Услуги мангальщика</span><span>по договорённости</span><span>от 3 000 до 10 000 ₽</span></div>
+      </div>
+      <p class="price-note">Итоговая стоимость зависит от даты, числа гостей и набора услуг — рассчитаем точно под ваше событие.</p>
+    </div>
+  </section>
+
+  <!-- ПРОЦЕСС -->
+  <section class="section process-section">
+    <div class="container">
+      <h2 class="section__title">Как забронировать</h2>
+      <div class="steps">
+        <div class="step"><span class="step__num">1</span><h3>Заявка</h3><p>Оставляете заявку или пишете в Telegram — уточняем дату и формат.</p></div>
+        <div class="step"><span class="step__num">2</span><h3>Подбор формата</h3><p>Территория, беседка или всё вместе — считаем стоимость под число гостей.</p></div>
+        <div class="step"><span class="step__num">3</span><h3>Бронирование</h3><p>Фиксируем дату предоплатой, согласовываем размещение и мангал.</p></div>
+        <div class="step"><span class="step__num">4</span><h3>Подготовка</h3><p>Готовим территорию, беседку и номера к вашему приезду.</p></div>
+        <div class="step"><span class="step__num">5</span><h3>Событие</h3><p>Вы проводите мероприятие, мы на связи по всем вопросам площадки.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ТЕРРИТОРИЯ / ОБЪЕКТЫ -->
+  <section class="section objects-section" id="territory">
+    <div class="container">
+      <h2 class="section__title">Территория</h2>
+      <div class="objects-grid">
+        <div class="object">
+          <h3>Виноградный парк</h3>
+          <span class="object__meta">500 м² · под открытым небом</span>
+          <p>Ряды виноградника — площадка для церемоний, прогулок и фотосессий.</p>
+        </div>
+        <div class="object">
+          <h3>Беседка-кафе</h3>
+          <span class="object__meta">56 м² · до 60 посадочных мест</span>
+          <p>27 × 18 м и 12,5 × 4,5 м — крытое пространство для банкета в любую погоду.</p>
+        </div>
+        <div class="object">
+          <h3>Сцена</h3>
+          <span class="object__meta">15 × 3,5 м · 52,5 м²</span>
+          <p>Место для ведущих, музыкантов или молодожёнов на выездной церемонии.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+      <h2 class="section__title">Частые вопросы</h2>
+      <div class="faq">
+        <details class="faq__item"><summary>Можно ли остаться с ночёвкой?</summary><p>Да, в доме 3 номера до 4 человек каждый. Заезд с 10:00, выезд до 12:00 следующего дня.</p></details>
+        <details class="faq__item"><summary>Сколько гостей вмещает беседка?</summary><p>До 60 посадочных мест, площадь 56 м². Подходит для банкета, лекции или мастер-класса.</p></details>
+        <details class="faq__item"><summary>Можно привезти своего кейтеринга?</summary><p>Да, вы можете привезти свою еду и напитки или заказать мангальщика на площадке.</p></details>
+        <details class="faq__item"><summary>Как работает мангальщик?</summary><p>Стоимость от 3 000 до 10 000 ₽ в зависимости от объёма приготовленного — обсуждаем при бронировании.</p></details>
+        <details class="faq__item"><summary>На сколько можно арендовать территорию?</summary><p>Стандартный формат — с 9:00 до 23:00. Возможны индивидуальные условия по договорённости.</p></details>
+        <details class="faq__item"><summary>Проводите ли экскурсии по винограднику?</summary><p>По запросу можем организовать рассказ о винограднике как дополнение к вашему мероприятию.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФОРМА + КАРТА -->
+  <section class="section form-section" id="leadForm-section">
+    <div class="container form-grid">
+      <div class="form-card">
+        <h2>Оставьте заявку</h2>
+        <p>Расскажите о вашем событии — подберём формат, дату и рассчитаем стоимость.</p>
+        <form id="leadForm" class="form">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <label>Имя<input type="text" name="name" placeholder="Ваше имя" required></label>
+          <label>Телефон<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+          <label>Тип мероприятия<input type="text" name="event" placeholder="Свадьба, юбилей, корпоратив..."></label>
+          <label>Комментарий<textarea name="comment" rows="3" placeholder="Дата, число гостей"></textarea></label>
+          <button type="submit" class="btn btn--primary btn--block">Отправить заявку</button>
+        </form>
+      </div>
+      <div class="map-card map-card--placeholder">
+        <p>Точный адрес и карта проезда — уточняются, появятся после подтверждения локации.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- КОНТАКТЫ / FOOTER -->
+<footer class="footer" id="contacts">
+  <div class="container footer__grid">
+    <div class="footer__col">
+      <a href="#top" class="logo logo--footer"><span class="logo__main">Лозалимана</span><span class="logo__suffix">event park</span></a>
+      <p>Событийная площадка на территории винодельни: виноградник, беседка-кафе, сцена и номера для гостей.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Контакты</h4>
+      <p><a href="tel:+79990000000">+7 (999) 000-00-00</a></p>
+      <p><a href="https://t.me/Karaush_Mariya_psy" target="_blank" rel="noopener">Telegram: @Karaush_Mariya_psy</a></p>
+      <p>Адрес уточняется</p>
+    </div>
+    <div class="footer__col">
+      <h4>Разделы</h4>
+      <p><a href="#territory">Территория</a></p>
+      <p><a href="#prices">Цены</a></p>
+      <p><a href="#faq">FAQ</a></p>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Лозалимана</span>
+  </div>
+</footer>
+
+<a href="https://t.me/Karaush_Mariya_psy" class="fab" target="_blank" rel="noopener" aria-label="Написать в Telegram">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M21 3 3 10.5l6 2 2 6 3-4 5 3.5L21 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
