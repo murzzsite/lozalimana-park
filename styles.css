@@ -281,7 +281,7 @@ h1, h2, h3 {
 
 /* OBJECTS */
 .objects-section { background: var(--bg-alt); }
-.objects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.objects-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
 .object {
   background: var(--surface);
   border: 1px solid var(--border);
